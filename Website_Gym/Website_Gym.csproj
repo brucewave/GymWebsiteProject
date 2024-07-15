@@ -106,6 +106,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
+    <Content Include="admin_customer.aspx" />
+    <Content Include="admin_index.aspx" />
+    <Content Include="admin_instructor.aspx" />
+    <Content Include="admin_login.aspx" />
+    <Content Include="admin_profile.aspx" />
     <Content Include="assets\css\plugins\aos.css" />
     <Content Include="assets\css\plugins\bootstrap.min.css" />
     <Content Include="assets\css\plugins\fontawesome.min.css" />
@@ -293,7 +298,279 @@
     <Content Include="assets\sass\style.css.map" />
     <Content Include="assets\sass\style.scss" />
     <Content Include="Admin.Master" />
+    <Content Include="material\css\bootstrap.min.css.map" />
+    <Content Include="material\fonts\boxicons.eot" />
+    <Content Include="material\fonts\boxicons.ttf" />
+    <Content Include="material\fonts\boxicons.woff" />
+    <Content Include="material\fonts\boxicons.woff2" />
+    <Content Include="material\fonts\LineIcons.eot" />
+    <Content Include="material\fonts\LineIcons.ttf" />
+    <Content Include="material\fonts\LineIcons.woff" />
+    <Content Include="material\fonts\LineIcons.woff2" />
+    <Content Include="material\images\bg-themes\body-background-1.webp" />
+    <Content Include="material\js\bootstrap.bundle.min.js.map" />
+    <Content Include="material\plugins\metismenu\metisMenu.min.css.map" />
+    <Content Include="material\plugins\metismenu\metisMenu.min.js.map" />
+    <Content Include="sass\blue-theme.css.map" />
+    <Content Include="sass\blue-theme.scss" />
+    <Content Include="sass\bordered-theme.css.map" />
+    <Content Include="sass\bordered-theme.scss" />
+    <Content Include="sass\dark-theme.css.map" />
+    <Content Include="sass\dark-theme.scss" />
+    <Content Include="sass\main.css.map" />
+    <Content Include="sass\main.scss" />
+    <Content Include="sass\responsive.css.map" />
+    <Content Include="sass\responsive.scss" />
+    <Content Include="sass\semi-dark.css.map" />
+    <Content Include="sass\semi-dark.scss" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="material\css\bootstrap-extended.css" />
+    <Content Include="material\css\bootstrap.min.css" />
+    <Content Include="material\css\extra-icons.css" />
+    <Content Include="material\css\pace.min.css" />
+    <Content Include="material\fonts\boxicons.svg" />
+    <Content Include="material\fonts\LineIcons.svg" />
+    <Content Include="material\images\apps\01.png" />
+    <Content Include="material\images\apps\02.png" />
+    <Content Include="material\images\apps\03.png" />
+    <Content Include="material\images\apps\04.png" />
+    <Content Include="material\images\apps\05.png" />
+    <Content Include="material\images\apps\06.png" />
+    <Content Include="material\images\apps\07.png" />
+    <Content Include="material\images\apps\08.png" />
+    <Content Include="material\images\apps\09.png" />
+    <Content Include="material\images\apps\10.png" />
+    <Content Include="material\images\apps\11.png" />
+    <Content Include="material\images\apps\12.png" />
+    <Content Include="material\images\apps\13.png" />
+    <Content Include="material\images\apps\14.png" />
+    <Content Include="material\images\apps\15.png" />
+    <Content Include="material\images\apps\16.png" />
+    <Content Include="material\images\apps\17.png" />
+    <Content Include="material\images\apps\18.png" />
+    <Content Include="material\images\apps\19.png" />
+    <Content Include="material\images\apps\20.png" />
+    <Content Include="material\images\apps\amazon.png" />
+    <Content Include="material\images\apps\apple.png" />
+    <Content Include="material\images\apps\behance.png" />
+    <Content Include="material\images\apps\gift-box-2.png" />
+    <Content Include="material\images\apps\gift-box-3.png" />
+    <Content Include="material\images\apps\gift-box.png" />
+    <Content Include="material\images\apps\party-popper.png" />
+    <Content Include="material\images\apps\paypal.png" />
+    <Content Include="material\images\apps\twitter-circle.png" />
+    <Content Include="material\images\auth\forgot-password1.png" />
+    <Content Include="material\images\auth\login1.png" />
+    <Content Include="material\images\auth\register1.png" />
+    <Content Include="material\images\auth\reset-password1.png" />
+    <Content Include="material\images\avatars\01.png" />
+    <Content Include="material\images\avatars\02.png" />
+    <Content Include="material\images\avatars\03.png" />
+    <Content Include="material\images\avatars\04.png" />
+    <Content Include="material\images\avatars\05.png" />
+    <Content Include="material\images\avatars\06.png" />
+    <Content Include="material\images\avatars\07.png" />
+    <Content Include="material\images\avatars\08.png" />
+    <Content Include="material\images\avatars\09.png" />
+    <Content Include="material\images\avatars\10.png" />
+    <Content Include="material\images\avatars\11.png" />
+    <Content Include="material\images\avatars\12.png" />
+    <Content Include="material\images\carousels\01.png" />
+    <Content Include="material\images\carousels\02.png" />
+    <Content Include="material\images\carousels\03.png" />
+    <Content Include="material\images\carousels\04.png" />
+    <Content Include="material\images\carousels\05.png" />
+    <Content Include="material\images\carousels\06.png" />
+    <Content Include="material\images\carousels\07.png" />
+    <Content Include="material\images\carousels\08.png" />
+    <Content Include="material\images\carousels\09.png" />
+    <Content Include="material\images\carousels\10.png" />
+    <Content Include="material\images\carousels\11.png" />
+    <Content Include="material\images\carousels\12.png" />
+    <Content Include="material\images\carousels\13.png" />
+    <Content Include="material\images\carousels\14.png" />
+    <Content Include="material\images\carousels\15.png" />
+    <Content Include="material\images\cat\01.png" />
+    <Content Include="material\images\cat\02.png" />
+    <Content Include="material\images\cat\03.png" />
+    <Content Include="material\images\cat\04.png" />
+    <Content Include="material\images\cat\05.png" />
+    <Content Include="material\images\cat\06.png" />
+    <Content Include="material\images\county\01.png" />
+    <Content Include="material\images\county\02.png" />
+    <Content Include="material\images\county\03.png" />
+    <Content Include="material\images\county\04.png" />
+    <Content Include="material\images\county\05.png" />
+    <Content Include="material\images\county\06.png" />
+    <Content Include="material\images\county\07.png" />
+    <Content Include="material\images\county\08.png" />
+    <Content Include="material\images\favicon-32x32.png" />
+    <Content Include="material\images\gallery\01.png" />
+    <Content Include="material\images\gallery\02.png" />
+    <Content Include="material\images\gallery\03.png" />
+    <Content Include="material\images\gallery\04.png" />
+    <Content Include="material\images\gallery\05.png" />
+    <Content Include="material\images\gallery\06.png" />
+    <Content Include="material\images\gallery\07.png" />
+    <Content Include="material\images\gallery\08.png" />
+    <Content Include="material\images\gallery\09.png" />
+    <Content Include="material\images\gallery\10.png" />
+    <Content Include="material\images\gallery\11.png" />
+    <Content Include="material\images\gallery\12.png" />
+    <Content Include="material\images\gallery\13.png" />
+    <Content Include="material\images\gallery\14.png" />
+    <Content Include="material\images\gallery\15.png" />
+    <Content Include="material\images\gallery\16.png" />
+    <Content Include="material\images\gallery\17.png" />
+    <Content Include="material\images\gallery\18.png" />
+    <Content Include="material\images\gallery\19.png" />
+    <Content Include="material\images\gallery\20.png" />
+    <Content Include="material\images\gallery\21.png" />
+    <Content Include="material\images\gallery\22.png" />
+    <Content Include="material\images\gallery\23.png" />
+    <Content Include="material\images\gallery\24.png" />
+    <Content Include="material\images\gallery\25.png" />
+    <Content Include="material\images\gallery\26.png" />
+    <Content Include="material\images\gallery\profile-cover-min.png" />
+    <Content Include="material\images\gallery\welcome-back-3.png" />
+    <Content Include="material\images\justLogo.png" />
+    <Content Include="material\images\logo-icon.png" />
+    <Content Include="material\images\logo.png" />
+    <Content Include="material\images\logo1.png" />
+    <Content Include="material\images\megaIcons\01.png" />
+    <Content Include="material\images\megaIcons\02.png" />
+    <Content Include="material\images\megaIcons\03.png" />
+    <Content Include="material\images\megaIcons\04.png" />
+    <Content Include="material\images\megaIcons\05.png" />
+    <Content Include="material\images\megaIcons\06.png" />
+    <Content Include="material\images\megaIcons\07.png" />
+    <Content Include="material\images\megaIcons\08.png" />
+    <Content Include="material\images\megaIcons\09.png" />
+    <Content Include="material\images\megaIcons\10.png" />
+    <Content Include="material\images\megaIcons\11.png" />
+    <Content Include="material\images\megaIcons\12.png" />
+    <Content Include="material\images\megaIcons\13.png" />
+    <Content Include="material\images\orders\01.png" />
+    <Content Include="material\images\orders\02.png" />
+    <Content Include="material\images\orders\03.png" />
+    <Content Include="material\images\orders\04.png" />
+    <Content Include="material\images\orders\05.png" />
+    <Content Include="material\images\orders\06.png" />
+    <Content Include="material\images\orders\07.png" />
+    <Content Include="material\images\orders\08.png" />
+    <Content Include="material\images\orders\09.png" />
+    <Content Include="material\images\projects\angular.png" />
+    <Content Include="material\images\projects\bootstrap.png" />
+    <Content Include="material\images\projects\django.png" />
+    <Content Include="material\images\projects\magento.png" />
+    <Content Include="material\images\projects\python.png" />
+    <Content Include="material\images\projects\react.png" />
+    <Content Include="material\images\projects\vue.png" />
+    <Content Include="material\images\top-products\01.png" />
+    <Content Include="material\images\top-products\02.png" />
+    <Content Include="material\images\top-products\03.png" />
+    <Content Include="material\images\top-products\04.png" />
+    <Content Include="material\images\top-products\05.png" />
+    <Content Include="material\images\top-products\06.png" />
+    <Content Include="material\images\top-products\07.png" />
+    <Content Include="material\js\bootstrap.bundle.min.js" />
+    <Content Include="material\js\dashboard1.js" />
+    <Content Include="material\js\dashboard2.js" />
+    <Content Include="material\js\data-widgets.js" />
+    <Content Include="material\js\index.js" />
+    <Content Include="material\js\index2.js" />
+    <Content Include="material\js\jquery.min.js" />
+    <Content Include="material\js\main.js" />
+    <Content Include="material\js\pace.min.js" />
+    <Content Include="material\plugins\apexchart\apex-custom-chart.js" />
+    <Content Include="material\plugins\apexchart\apexcharts.min.js" />
+    <Content Include="material\plugins\apexchart\data-cards.js" />
+    <Content Include="material\plugins\bs-stepper\css\bs-stepper-custom.css" />
+    <Content Include="material\plugins\bs-stepper\css\bs-stepper.css" />
+    <Content Include="material\plugins\bs-stepper\css\custom.js" />
+    <Content Include="material\plugins\bs-stepper\js\bs-stepper.min.js" />
+    <Content Include="material\plugins\bs-stepper\js\index.js" />
+    <Content Include="material\plugins\bs-stepper\js\index.spec.js" />
+    <Content Include="material\plugins\bs-stepper\js\listeners.js" />
+    <Content Include="material\plugins\bs-stepper\js\main.js" />
+    <Content Include="material\plugins\bs-stepper\js\polyfill.js" />
+    <Content Include="material\plugins\bs-stepper\js\util.js" />
+    <Content Include="material\plugins\chartjs\js\chart.js" />
+    <Content Include="material\plugins\chartjs\js\chartjs-custom.js" />
+    <Content Include="material\plugins\datatable\css\dataTables.bootstrap5.min.css" />
+    <Content Include="material\plugins\datatable\js\dataTables.bootstrap5.min.js" />
+    <Content Include="material\plugins\datatable\js\jquery.dataTables.min.js" />
+    <Content Include="material\plugins\Drag-And-Drop\dist\imageuploadify.min.css" />
+    <Content Include="material\plugins\Drag-And-Drop\dist\imageuploadify.min.js" />
+    <Content Include="material\plugins\fancy-file-uploader\cors\jquery.postmessage-transport.js" />
+    <Content Include="material\plugins\fancy-file-uploader\cors\jquery.xdr-transport.js" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_fileupload.css" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_microphone.png" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_okay.png" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_remove.png" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_upload.png" />
+    <Content Include="material\plugins\fancy-file-uploader\fancy_webcam.png" />
+    <Content Include="material\plugins\fancy-file-uploader\jquery.fancy-fileupload.js" />
+    <Content Include="material\plugins\fancy-file-uploader\jquery.fileupload.js" />
+    <Content Include="material\plugins\fancy-file-uploader\jquery.iframe-transport.js" />
+    <Content Include="material\plugins\fancy-file-uploader\jquery.ui.widget.js" />
+    <Content Include="material\plugins\form-repeater\repeater.js" />
+    <Content Include="material\plugins\fullcalendar\css\main.css" />
+    <Content Include="material\plugins\fullcalendar\css\main.min.css" />
+    <Content Include="material\plugins\fullcalendar\js\main.js" />
+    <Content Include="material\plugins\fullcalendar\js\main.min.js" />
+    <Content Include="material\plugins\gmaps\map-custom-script.js" />
+    <Content Include="material\plugins\input-tags\css\tagsinput.css" />
+    <Content Include="material\plugins\input-tags\js\tagsinput.js" />
+    <Content Include="material\plugins\metismenu\metisMenu.min.css" />
+    <Content Include="material\plugins\metismenu\metisMenu.min.js" />
+    <Content Include="material\plugins\metismenu\mm-vertical.css" />
+    <Content Include="material\plugins\notifications\css\lobibox.css" />
+    <Content Include="material\plugins\notifications\css\lobibox.min.css" />
+    <Content Include="material\plugins\notifications\img\1.jpg" />
+    <Content Include="material\plugins\notifications\img\2.jpg" />
+    <Content Include="material\plugins\notifications\img\3.jpg" />
+    <Content Include="material\plugins\notifications\img\4.jpg" />
+    <Content Include="material\plugins\notifications\img\5.jpg" />
+    <Content Include="material\plugins\notifications\img\6.jpg" />
+    <Content Include="material\plugins\notifications\js\lobibox.js" />
+    <Content Include="material\plugins\notifications\js\lobibox.min.js" />
+    <Content Include="material\plugins\notifications\js\messageboxes.js" />
+    <Content Include="material\plugins\notifications\js\messageboxes.min.js" />
+    <Content Include="material\plugins\notifications\js\notification-custom-script.js" />
+    <Content Include="material\plugins\notifications\js\notifications.js" />
+    <Content Include="material\plugins\notifications\js\notifications.min.js" />
+    <Content Include="material\plugins\notifications\sounds\sound1.ogg" />
+    <Content Include="material\plugins\notifications\sounds\sound2.ogg" />
+    <Content Include="material\plugins\notifications\sounds\sound3.ogg" />
+    <Content Include="material\plugins\notifications\sounds\sound4.ogg" />
+    <Content Include="material\plugins\notifications\sounds\sound5.ogg" />
+    <Content Include="material\plugins\notifications\sounds\sound6.ogg" />
+    <Content Include="material\plugins\peity\jquery.peity.min.js" />
+    <Content Include="material\plugins\perfect-scrollbar\css\perfect-scrollbar.css" />
+    <Content Include="material\plugins\perfect-scrollbar\js\perfect-scrollbar.js" />
+    <Content Include="material\plugins\select2\css\select2-bootstrap4.css" />
+    <Content Include="material\plugins\select2\css\select2.min.css" />
+    <Content Include="material\plugins\select2\js\select2-custom.js" />
+    <Content Include="material\plugins\select2\js\select2.min.js" />
+    <Content Include="material\plugins\simplebar\css\simplebar.css" />
+    <Content Include="material\plugins\simplebar\js\simplebar.min.js" />
+    <Content Include="material\plugins\validation\jquery.validate.min.js" />
+    <Content Include="material\plugins\validation\validation-script.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-2.0.2.css" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-2.0.2.min.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-au-mill.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-in-mill.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-uk-mill-en.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-us-aea-en.js" />
+    <Content Include="material\plugins\vectormap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="material\plugins\vectormap\jvectormap.custom.js" />
+    <Content Include="sass\blue-theme.css" />
+    <Content Include="sass\bordered-theme.css" />
+    <Content Include="sass\dark-theme.css" />
+    <Content Include="sass\main.css" />
+    <Content Include="sass\responsive.css" />
+    <Content Include="sass\semi-dark.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -342,6 +619,41 @@
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin_customer.aspx.cs">
+      <DependentUpon>admin_customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_customer.aspx.designer.cs">
+      <DependentUpon>admin_customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_index.aspx.cs">
+      <DependentUpon>admin_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_index.aspx.designer.cs">
+      <DependentUpon>admin_index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_instructor.aspx.cs">
+      <DependentUpon>admin_instructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_instructor.aspx.designer.cs">
+      <DependentUpon>admin_instructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_login.aspx.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_login.aspx.designer.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_profile.aspx.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_profile.aspx.designer.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
